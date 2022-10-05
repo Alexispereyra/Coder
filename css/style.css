@@ -42,14 +42,28 @@ nav ul li {
     padding: 10px;
 } 
 
-nav ul li a {
+.navbar-toggler-icon {
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.nav-link {
     font-family: 'berlin', Verdana, Tahoma, sans-serif;
     font-size: 25px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.navC {
+.nav-link-c {
+    font-family: 'berlin', Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.active {
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px;
@@ -74,6 +88,7 @@ nav ul li a {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px;
 }
+
 
 /* Fondo de página */ 
 .body {
@@ -254,8 +269,7 @@ header {
 
 .fondoC2 {
     width: 100%;
-    padding: 10px;
-
+    padding-bottom: 15px;
 }
 
 .ubicacion {
