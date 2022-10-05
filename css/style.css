@@ -364,6 +364,7 @@ h3 {
 }
 
 .textoPie {
+    margin: 0 !important;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
@@ -407,8 +408,6 @@ h3 {
     .menu {
         display: none;
     }
-
-  
 
 
 /* Contenido de página */ 
@@ -726,6 +725,7 @@ h3 {
     }
     
     .textoPie {
+        margin: 0 !important;
         padding: 5px;
         background-color: rgba(0, 0, 0, 0.6);
         text-align: center;
