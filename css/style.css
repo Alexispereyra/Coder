@@ -135,6 +135,10 @@ header {
 
 .logo {
     width: 70%;
+
+    animation-name: aparicionV;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
 }
 
 .logo:hover {
@@ -426,8 +430,28 @@ h3 {
 .textoPie strong {
     font-family: 'myriadBold', Verdana, Tahoma, sans-serif;
 }
+  
 
 
+/* Animaciones */
+@keyframes aparicionH {
+    0% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes aparicionV {
+    0% {
+        transform: translateY(-400px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
 
 
@@ -478,6 +502,8 @@ h3 {
     
     .logo {
         width: 50%;
+
+        animation-name: aparicionH;
     }
     
     .introduccion {
@@ -768,10 +794,6 @@ h3 {
     }
 
 
-
-
-
-
      
     /* Pie de página */
     .pieIndex {
@@ -804,6 +826,13 @@ h3 {
         font-family: 'myriadBold', Verdana, Tahoma, sans-serif;
     }     
       
+
+
+
+
+
+
+
 
 
 
