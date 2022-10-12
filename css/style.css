@@ -81,26 +81,6 @@ nav ul li {
     padding: 5px;
 }
 
-.navI {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-}
-
-.navP {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-}
-
-.navA {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-}
-
-.navG {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-}
-
 
 /* Fondo de página */ 
 .body {
@@ -465,13 +445,11 @@ h3 {
 @media (min-width: 768px) 
     {   
 
-
-
     /* Navegador */   
     .navbar {
         display: flex;
         flex-direction: row;
-        justify-content: right;
+        justify-content: end;
         align-items: center;
 
         height: 70px;
@@ -492,6 +470,7 @@ h3 {
 
 /* Contenido de página */ 
     /* Inicio */
+
     header {
         padding: 15px;
         display: flex;
@@ -505,23 +484,16 @@ h3 {
 
         animation-name: aparicionH;
     }
-    
+
     .introduccion {
         width: 90%;
-        padding: 10px;
-        margin: 20px;
-        background-color: rgb(0, 0, 0, 0.5);
     }
     
     .titulo {
-        color:white;
-        font-family: 'berlin', Verdana, Tahoma, sans-serif;
         text-align: start;
     }
     
     .contenido {
-        color:white;
-        font-family: Verdana, Tahoma, sans-serif;
         font-size: 17px;
         text-align: justify;
     }
@@ -535,17 +507,14 @@ h3 {
         justify-content: space-between;  
     }
 
-    .paseadores2 {
-        color: white;
-        font-size: 15px;
-        font-family: Verdana, Tahoma, sans-serif;
 
+
+    .paseadores2 {
         display: flex;
         flex-direction: column;
     }
 
     .paseadores3 {
-        display: flex;
         flex-direction: row;   
         justify-content: flex-start;
         align-items: flex-start;
@@ -553,17 +522,6 @@ h3 {
 
     .bold {
         text-align: start;
-    }
-
-
-    .bold strong {
-        font-size: 25px;
-        font-family: 'berlin', Verdana, Tahoma, sans-serif;
-    }
-
-    .bold strong {
-        font-size: 25px;
-        font-family: 'berlin', Verdana, Tahoma, sans-serif;
     }
 
     .fondop1 img {
@@ -587,10 +545,10 @@ h3 {
     .fondop2 img {
         display: flex;
         
-
         width: 40%;
         padding: 5px;
     }
+
 
     /* Adiestradores */
     .adiestrador2 {
@@ -601,9 +559,6 @@ h3 {
         display: flex;
         flex-direction: row;
     }
-
-
-
 
 
     /* Galeria */
@@ -716,18 +671,6 @@ h3 {
         height: 250px;
     }
 
-    .boldC {
-        font-size: 20px;
-        font-family: 'myriad', Verdana, Tahoma, sans-serif;
-        color: rgb(255, 255, 255);
-    }
-
-    .boldC strong {
-        font-size: 25px;
-        font-family: 'candara', Verdana, Tahoma, sans-serif;
-        color: rgb(255, 255, 255);
-    }
-
     .contactoZona2 {
         display: flex;
         flex-direction: column;
@@ -745,13 +688,6 @@ h3 {
         padding: 10px;
     }
 
-    h3 {
-        font-size: 30px;
-        font-family: 'candara', Verdana, Tahoma, sans-serif;
-        color: rgb(255, 255, 255);
-        padding: 5px 30px 5px 5px;
-    }
-
     .formularioZ {
         display: flex;
         flex-direction: column;
@@ -765,21 +701,6 @@ h3 {
     .formularioC {
         display: flex;
         flex-direction: column;
-    }
-
-    .casilla {
-        font-size: 20px;
-        font-family: 'myriad', Verdana, Tahoma, sans-serif;
-        background-color: rgb(28, 36, 77);
-        color: white;
-        margin: 5px;
-    }
-
-    .casilla2 {
-        font-size: 25px;
-        font-family: 'berlin', Verdana, Tahoma, sans-serif;
-        background-color: rgb(16, 21, 56);
-        color: white;
     }
 
     .enlaces {
@@ -796,44 +717,14 @@ h3 {
 
      
     /* Pie de página */
+
     .pieIndex {
         position: absolute;
-        bottom: 0; 
-        width: 100%;
         }
-    
-    .footerP {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .footerP img {
-        width: 100%;
-    }
-    
+ 
     .textoPie {
-        margin: 0 !important;
-        padding: 5px;
-        background-color: rgba(0, 0, 0, 0.6);
-        text-align: center;
-        font-family: 'myriad', Verdana, Tahoma, sans-serif;
         font-size: 25px;
-        color: rgb(255, 255, 255, 0.7);
     }
     
-    .textoPie strong {
-        font-family: 'myriadBold', Verdana, Tahoma, sans-serif;
-    }     
-      
-
-
-
-
-
-
-
-
-
 
     }
