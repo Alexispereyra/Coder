@@ -1,0 +1,41 @@
+/* Adiestradores */
+.adiestrador2 {
+    color: $color-primario;
+    font-size: $medida;
+    font-family: $fuente-primaria;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.estela {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccionA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Media Queri */
+@media (min-width: 768px) 
+{   
+.adiestrador2 {
+    color: $color-primario;
+    font-size: $medida;
+    font-family: $fuente-primaria;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.estela {
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+}

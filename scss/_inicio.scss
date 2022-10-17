@@ -1,0 +1,82 @@
+ /* Inicio */
+ .bodyIndex {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, auto);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 70%;
+
+    animation-name: aparicionV;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.logo:hover {
+    filter: opacity(0.9);
+    transform: scale(1.05);
+  }
+
+.introduccion {
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+    background-color: #00000080;
+}
+
+.titulo {
+    color: $color-primario;
+    font-family: 'berlin', $fuente-primaria;
+    font-size: $medida+30;
+    text-align: center;
+}
+
+.contenido {
+    color:$color-primario;
+    font-family: $fuente-primaria;
+    font-size: $medida+5;
+    text-align: center;
+}
+
+
+/* Media Queri */
+@media (min-width: 768px) 
+{   
+
+header {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 50%;
+
+    animation-name: aparicionH;
+}
+
+.introduccion {
+    width: 90%;
+}
+
+.titulo {
+    text-align: start;
+}
+
+.contenido {
+    font-size: $medida+2;
+    text-align: justify;
+}
+}
