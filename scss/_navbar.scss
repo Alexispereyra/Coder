@@ -46,11 +46,8 @@ nav {
   }
 
 .nav-link-c {
-    font-family: 'berlin', $fuente-primaria;
-    font-size: $medida+10;
+    @extend .nav-link;
     padding: 5px;
-    text-decoration: none;
-    color: $color-primario;
     background-color: #FFFFFF80;
 }
 
@@ -59,7 +56,6 @@ nav {
     color: #BAEFFF;
     transform: scale(1.2);
   }
-
 
 .active {
     color: #000000;
