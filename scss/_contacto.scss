@@ -120,7 +120,7 @@ h3 {
 
 
 /* Media Queri */
-@media (min-width: 768px) 
+@media (min-width: 991px) 
 {   
 .mainC {
     display: flex;
@@ -158,8 +158,8 @@ h3 {
 
 .contacto {
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
+    justify-content: center;
 
     background-color: #464869;
     width: 90%;
@@ -169,11 +169,13 @@ h3 {
 .formularioZ {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .formulario {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .formularioC {

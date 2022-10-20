@@ -81,7 +81,9 @@ nav ul li {
   nav ul li {
     display: inline-block; }
   .menu {
-    display: none; } }
+    display: none; }
+  .navbar-collapse {
+    background-color: #00000099; } }
 
 /* Fondo de página */
 .body {
@@ -417,7 +419,7 @@ h3 {
   width: 40%; }
 
 /* Media Queri */
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .mainC {
     display: flex;
     flex-direction: row;
@@ -443,16 +445,19 @@ h3 {
     align-items: center; }
   .contacto {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     background-color: #464869;
     width: 90%;
     padding: 10px; }
   .formularioZ, .formularioC {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: center; }
   .formulario {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: center; }
   .logoRed {
     width: 35%; } }
 
