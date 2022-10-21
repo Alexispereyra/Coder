@@ -293,22 +293,22 @@ header {
   animation-timing-function: ease-in-out; }
 
 .img-3 {
-  animation-name: aparicionH2;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out; }
-
-.img-4 {
-  animation-name: aparicionH2;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out; }
-
-.img-5 {
   animation-name: aparicionH;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
+.img-4 {
+  animation-name: aparicionV;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-5 {
+  animation-name: aparicionV;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
 .img-6 {
-  animation-name: aparicionV3;
+  animation-name: aparicionH;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
@@ -318,12 +318,12 @@ header {
   animation-timing-function: ease-in-out; }
 
 .img-8 {
-  animation-name: aparicionH2;
+  animation-name: aparicionH;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
 .img-9 {
-  animation-name: aparicionH2;
+  animation-name: aparicionH;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
@@ -338,12 +338,12 @@ header {
   animation-timing-function: ease-in-out; }
 
 .img-12 {
-  animation-name: aparicionH2;
+  animation-name: aparicionH;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
 .img-13 {
-  animation-name: aparicionH2;
+  animation-name: aparicionH;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
@@ -354,12 +354,12 @@ header {
 
 .img-15 {
   animation-name: aparicionH;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
 .img-16 {
-  animation-name: aparicionH2;
-  animation-duration: 0.5s;
+  animation-name: aparicionH;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out; }
 
 /* Media Queri */

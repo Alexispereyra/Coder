@@ -48,19 +48,19 @@
 }
 
 .img-3 {
-  @include animacion (aparicionH2, 1s, ease-in-out);
-}
-
-.img-4 {
-  @include animacion (aparicionH2, 1s, ease-in-out);
-}
-
-.img-5 {
   @include animacion (aparicionH, 1s, ease-in-out);
 }
 
+.img-4 {
+  @include animacion (aparicionV, 1s, ease-in-out);
+}
+
+.img-5 {
+  @include animacion (aparicionV, 1s, ease-in-out);
+}
+
 .img-6 {
-  @include animacion (aparicionV3, 1s, ease-in-out);
+  @include animacion (aparicionH, 1s, ease-in-out);
 }
 
 .img-7 {
@@ -68,11 +68,11 @@
 }
 
 .img-8 {
-  @include animacion (aparicionH2, 1s, ease-in-out);
+  @include animacion (aparicionH, 1s, ease-in-out);
 }
 
 .img-9 {
-  @include animacion (aparicionH2, 1s, ease-in-out);
+  @include animacion (aparicionH, 1s, ease-in-out);
 }
 
 .img-10 {
@@ -84,11 +84,11 @@
 }
 
 .img-12 {
-  @include animacion (aparicionH2, 1s, ease-in-out);
+  @include animacion (aparicionH, 1s, ease-in-out);
 }
 
 .img-13 {
-  @include animacion (aparicionH2, 1s, ease-in-out);
+  @include animacion (aparicionH, 1s, ease-in-out);
 }
 
 .img-14 {
@@ -96,11 +96,11 @@
 }
 
 .img-15 {
-  @include animacion (aparicionH, 0.5s, ease-in-out);
+  @include animacion (aparicionH, 1s, ease-in-out);
 }
 
 .img-16 {
-  @include animacion (aparicionH2, 0.5s, ease-in-out);
+  @include animacion (aparicionH, 1s, ease-in-out);
 }
 
 
