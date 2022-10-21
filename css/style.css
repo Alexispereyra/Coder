@@ -282,43 +282,171 @@ header {
 .plus {
   grid-column: span 2; }
 
+.img-1 {
+  animation-name: aparicionV;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-2 {
+  animation-name: aparicionH;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-3 {
+  animation-name: aparicionH2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-4 {
+  animation-name: aparicionH2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-5 {
+  animation-name: aparicionH;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-6 {
+  animation-name: aparicionV3;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-7 {
+  animation-name: aparicionH;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-8 {
+  animation-name: aparicionH2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-9 {
+  animation-name: aparicionH2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-10 {
+  animation-name: aparicionH;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-11 {
+  animation-name: aparicionH;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-12 {
+  animation-name: aparicionH2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-13 {
+  animation-name: aparicionH2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-14 {
+  animation-name: aparicionH;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+
+.img-15 {
+  animation-name: aparicionH;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out; }
+
+.img-16 {
+  animation-name: aparicionH2;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out; }
+
 /* Media Queri */
 @media (min-width: 768px) {
   .galery {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "img-1 img-1 img-2 img-3" "img-1 img-1 img-6 img-6" "img-4 img-5 img-6 img-6" "img-7 img-8 img-9 img-10" "img-11 img-12 img-13 img-14" "img-15 img-15 img-16 img-16" "img-15 img-15 img-16 img-16"; }
   .img-1 {
-    grid-area: img-1; }
+    grid-area: img-1;
+    animation-name: aparicionV;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-2 {
-    grid-area: img-2; }
+    grid-area: img-2;
+    animation-name: aparicionH2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out; }
   .img-3 {
-    grid-area: img-3; }
+    grid-area: img-3;
+    animation-name: aparicionV;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-4 {
-    grid-area: img-4; }
+    grid-area: img-4;
+    animation-name: aparicionH;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-5 {
-    grid-area: img-5; }
+    grid-area: img-5;
+    animation-name: aparicionH2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out; }
   .img-6 {
-    grid-area: img-6; }
+    grid-area: img-6;
+    animation-name: aparicionH2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-7 {
-    grid-area: img-7; }
+    grid-area: img-7;
+    animation-name: aparicionH;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-8 {
-    grid-area: img-8; }
+    grid-area: img-8;
+    animation-name: aparicionH2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-9 {
-    grid-area: img-9; }
+    grid-area: img-9;
+    animation-name: aparicionH;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-10 {
-    grid-area: img-10; }
+    grid-area: img-10;
+    animation-name: aparicionH2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-11 {
-    grid-area: img-11; }
+    grid-area: img-11;
+    animation-name: aparicionH2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-12 {
-    grid-area: img-12; }
+    grid-area: img-12;
+    animation-name: aparicionH;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-13 {
-    grid-area: img-13; }
+    grid-area: img-13;
+    animation-name: aparicionH2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-14 {
-    grid-area: img-14; }
+    grid-area: img-14;
+    animation-name: aparicionH;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-15 {
-    grid-area: img-15; }
+    grid-area: img-15;
+    animation-name: aparicionV2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; }
   .img-16 {
-    grid-area: img-16; } }
+    grid-area: img-16;
+    animation-name: aparicionH;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out; } }
 
 /* Contacto */
 .mainC {
@@ -509,8 +637,26 @@ h3 {
   100% {
     transform: translateX(0); } }
 
+@keyframes aparicionH2 {
+  0% {
+    transform: translateX(1500px); }
+  100% {
+    transform: translateX(0); } }
+
 @keyframes aparicionV {
   0% {
     transform: translateY(-400px); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes aparicionV2 {
+  0% {
+    transform: translateY(1500px); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes aparicionV3 {
+  0% {
+    transform: translateY(-1500px); }
   100% {
     transform: translateX(0); } }

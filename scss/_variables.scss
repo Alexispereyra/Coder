@@ -6,3 +6,9 @@ $medida: 15px;
     width: $ancho;
     height: $alto;
 }
+
+@mixin animacion ($name, $duration, $timing) {
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: $timing;
+}
