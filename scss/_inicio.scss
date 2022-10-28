@@ -32,6 +32,7 @@ header {
     padding: 10px;
     margin: 20px;
     background-color: #00000080;
+    border-radius: 10px;
 }
 
 .titulo {
@@ -39,7 +40,18 @@ header {
     font-family: 'berlin', $fuente-primaria;
     font-size: $medida+30;
     text-align: center;
+
+    box-shadow: inset 0 0 0 0 #54b3d67e;
+    color: #b2eaffcb;
+    padding: 0 5px;
+    margin: 0 -5px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
+.titulo:hover {
+    color: #fff;
+    box-shadow: inset 400px 0 0 0 #54b3d67e;
+  }
 
 .contenido {
     color:$color-primario;
@@ -50,6 +62,13 @@ header {
 
 
 /* Media Queri */
+@media (min-width: 600px) 
+{
+    .titulo:hover {
+        box-shadow: inset 500px 0 0 0 #54b3d67e;
+    }
+}
+
 @media (min-width: 768px) 
 {   
 
@@ -69,14 +88,21 @@ header {
 
 .introduccion {
     width: 90%;
+    background-color: #0000008C;
+    padding: 5px 20px;
 }
 
 .titulo {
     text-align: start;
 }
 
+.titulo:hover {
+    box-shadow: inset 275px 0 0 0 #54b3d67e;
+  }
+
 .contenido {
     font-size: $medida+2;
+    font-weight: bold;
     text-align: justify;
 }
 }
